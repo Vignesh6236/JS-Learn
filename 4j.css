@@ -1,0 +1,22 @@
+.cart
+{
+    background-color: yellow;
+    border-color: black;
+    color: black;
+    transition: opacity 0.1s;
+}
+.buy
+{
+    background-color: rgb(216, 148, 1);
+    border-color: black;
+    color: black;
+    transition: opacity 0.1s;
+}
+.buy:hover,.cart:hover
+{
+    opacity: 0.7;
+}
+.buy:active,.cart:active
+{
+    opacity: 0.5;
+}
